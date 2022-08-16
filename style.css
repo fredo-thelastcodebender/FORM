@@ -1,207 +1,103 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-}
-
-.navbar {
-   width: 100%;
-   height: 70px ;
-   display: flex;
-   justify-content: center;
-   align-items: flex-start;
+body{
+    background-color: rgba(255, 253, 253, 0.767);
+    margin: 0%;
+    font-family: sans-serif;
+    color: rgb(85, 83, 81);
 
 }
-
-.navbar ul {
-    display: flex;
-
-
+*{
+    box-sizing: border-box;
 }
 
-.navbar ul li {
-  list-style: none;
-  margin: 15px 40px 0 0;
-  font-family: 'Roboto Slab', serif;
+nav{
+    width: 100%;
+    text-align: center;
 }
-
-.navbar ul li:hover {
-  color: #f17125;
-}
-
-#contact:hover {
-  display: none;
-}
-
-p {
-  margin-top: auto;
-  font-size: 14px;
-  font-weight:  normal;
-}
-
-.hr-1 {
-  margin-top: 16.5px;
-  width: 23rem;
-  margin-right: -2px;
+.ul, .li{
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5vw;
 
 }
-
-.hr-2 {
-  width: 23rem;
-  margin-top: 16.5px;
-  margin-left: -42px
+a{
+    text-decoration: none;
+    color: rgb(85, 83, 81);
 }
-img {
-  width: 7rem;
-  height: auto;
-  margin-top: -45px;
-}
-
-
-.underline {
-  display: block;
-  width: 4.5rem;
-  height: 5px;
-  background-color: #f17125;
+a:hover{
+    border-bottom: 3px solid #f17125;
 
 }
-
-.contact-form {
-  display: flex;
-  background-color: #d8d5cf;
-  margin-top: 2rem;
-    height: 35rem;
-}
-.form {
-
-
-
-
-  color: #555351;
-  font-family: sans-serif;
-}
-
-h1 {
-  padding-top: 39px;
-  margin-left: 135px;
-  font-size: 25px;
-}
-
-.form p {
-  margin-left: 135px;
-  font-size: 16px;
-}
-
-form {
-  font-size: 16px;
-  margin-left: 135px;
-  width: 80vw;
+img{
+    width: 8.5vw;
+    border-radius: 100%;
+    margin-bottom: -2.8rem;
 
 }
-fieldset {
-  border: none;
-
-
-}
-
-.form-label {
-  display: block;
-  margin: 0.5rem 0;
-}
-input, textarea{
-  display: block;
-  font-size: 14px;
-  width: 40%;
-  height: 32px;
-  margin: 10px 0 0 0;
-  border: none;
-
+.contact{
+    width: 60%;
+    background-color: rgb(217, 213, 207);
+    float: left;
+    text-align: left;
+    padding: 20px 10%;
+    height: 450px;
 
 }
-textarea {
-  height: 60px;
+.personal{
+    width: 40%;
+    background-color: rgb(217, 213, 207);
+    float: left;
+    text-align: left;
+    padding: 20px;
+    height: 450px;
 }
-
-button {
-  width: 4.5rem;
-  height: 2.5rem;
-  margin-top: 15px;
-  background-color: #f17125;
-  border-radius: 5px;
-  box-shadow: 1.5px 1.5px #555351;
-  font-size: 14px;
-  font-family: sans-serif;
-
+.input{
+    width: 90%;
+    height: 30px;
+    margin-top: 10px;
+    border: none;
 }
-
-
-.contact-info {
-  display: block;
-  margin: 4rem 0 0 -25rem;
+textarea{
+    width: 90%;
+    height: 50px;
+    border: none;
 }
-
-.info-label {
-  color: #f17125;
+label{
+    font-weight: 300;
+    font-size: 1.1vw;
 }
-
-.contact-info p, ul{
-  text-decoration: none;
-  font-family: sans-serif;
-  margin: 15px 0 3rem 0;
+p{
+    font-size: 1.1vw;
 }
-
-.contact-info p a {
-  text-decoration: none;
-  color: #555351;
-  transition: .1s;
+.button{
+    padding: 10px 15px;
+    background-color: rgb(72, 161, 139);
+    border: none;
 }
-
-.contact-info p a:hover {
-
-  color: #555351;
-  border-bottom: 3px solid #f17125;
+.button:hover{
+    background-color: rgb(65, 160, 71);
 }
-
-
-
-ul li{
-  display: inline-block;
-  list-style: none;
-
-}
-
-ul li a {
-  text-decoration: none;
-  color: #555351;
-  margin-right: 4px;
-}
-
-#info-hr {
-  width: 28rem;
-}
-
-
 footer {
-  display: flex;
-  justify-content: center;
+
 
 }
 
 footer ul {
     font-family: 'Roboto Slab', serif;
     display: flex;
-    margin-left: -2rem;
+    justify-content: center;
+    font-size: 1vw;
+    font-family: sans-serif;
+    margin-left: 1rem;
+
 
 }
-
-footer ul li a{
-  margin-right: 12px;
+footer li {
+  list-style: none;
+  margin: 2rem 0 0 2rem;
 }
+
+
 
 footer ul li a:hover {
 
@@ -210,7 +106,8 @@ color: #f17125;
 }
 
 .social-icons {
-  margin-left: 12rem;
+  display: flex;
+  margin-left;
 }
 
 .social-icons ul li  {
@@ -221,9 +118,25 @@ color: #f17125;
  .text {
   display: flex;
   justify-content: center;
-  margin: 4rem 0 0 -35rem;
+
+}
+
+.text p {
+  font-size: .8vw;
 }
 
 #heart-icon:hover {
   color: red;
 }
+
+
+@media screen and (max-width: 800px) {
+    .contact, .personal {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+
+  }
+
+  footer {
+    height: 20px;
+  }
