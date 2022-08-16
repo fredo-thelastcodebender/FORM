@@ -40,7 +40,7 @@ img{
     float: left;
     text-align: left;
     padding: 20px 10%;
-    height: 450px;
+    height: 460px;
 
 }
 .personal{
@@ -49,7 +49,7 @@ img{
     float: left;
     text-align: left;
     padding: 20px;
-    height: 450px;
+    height: 460px;
 }
 .input{
     width: 90%;
@@ -71,12 +71,11 @@ p{
 }
 .button{
     padding: 10px 15px;
-    background-color: rgb(72, 161, 139);
-    border: none;
+    background-color: #f17125;
+    border-radius: 2px;
+    box-shadow: 2px 3px rgb(85, 83, 81);
 }
-.button:hover{
-    background-color: rgb(65, 160, 71);
-}
+
 footer {
 
 
