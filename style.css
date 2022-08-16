@@ -72,6 +72,7 @@ p{
 .button{
     padding: 10px 15px;
     background-color: #f17125;
+    border: none;
     border-radius: 2px;
     box-shadow: 2px 3px rgb(85, 83, 81);
 }
